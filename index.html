@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Interactive Web Page</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1>Interactive Web Page</h1>
+
+  <!-- Light/Dark Mode Toggle -->
+  <button id="themeToggle">Toggle Light/Dark Mode</button>
+
+  <!-- Counter -->
+  <div>
+    <h2>Click Counter: <span id="counter">0</span></h2>
+    <button id="incrementBtn">Click Me!</button>
+  </div>
+
+  <!-- Collapsible FAQ -->
+  <div class="faq">
+    <h3 class="faq-question">What is JavaScript?</h3>
+    <p class="faq-answer hidden">JavaScript is a programming language used for web development.</p>
+  </div>
+
+  <!-- Contact Form -->
+  <h2>Contact Us</h2>
+  <form id="contactForm">
+    <label>Name: <input type="text" id="name" /></label><br/>
+    <label>Email: <input type="text" id="email" /></label><br/>
+    <label>Password: <input type="password" id="password" /></label><br/>
+    <button type="submit">Submit</button>
+    <div id="formMessage"></div>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
